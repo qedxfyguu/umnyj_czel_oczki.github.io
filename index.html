@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Умная Пустышка</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.jpg" type="image/x-icon" />
-    
+    <link rel="icon" href="icon.jpg" type="image/x-icon" >
+    <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  </style>
 </head>
 <body>
     <img src='umnyj czelowek w oczkah.jpg'>
     <h1>Привет, я сайт-пустышка (умная (в очках))!</h1>
     <p>Здесь пока что есть только эта бесполезная кнопка и картинка умного человека в очках, но ты можешь нажать на кнопку!</p>
     <button id="myButton">Я КНОПКА</button>
-    
-
 <script>
     document.getElementById("myButton").onclick = function() {
         alert("Сорян, она реально ничего не делает, можешь закрыть сайт.");
